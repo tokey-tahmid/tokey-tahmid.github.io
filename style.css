@@ -1,0 +1,141 @@
+/*Body Template*/
+.container-wrap {
+  max-width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#tamim-aside {
+  padding-top: 3em;
+  padding-bottom: 40px;
+  float: left;
+  width: 15%;
+  position: fixed;
+  z-index: 1001;
+  background: #1f1e1e;
+  transition: 0.5s;
+  display: block;
+  filter: drop-shadow(2.5px 2.5px 5px #000);
+}
+
+#tamim-main {
+  padding-bottom: 40px;
+  float: right;
+  width: 85%;
+  display: block;
+}
+
+.navbar {
+  margin-left: 15%;
+  float: right;
+  width: 85%;
+  filter: drop-shadow(1px 1px 2.5px #000);
+}
+
+.navbar-brand {
+  margin: auto;
+  color: white;
+}
+
+h3 {
+  font-family: "Bree Serif", serif;
+}
+
+.navbar-brand h3:hover {
+  color: red;
+}
+
+.author-img {
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 10%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.tamim-footer {
+  margin: auto;
+  padding-top: 2rem;
+  color: white;
+}
+
+hr.new1 {
+  border-top: 1px solid red;
+}
+
+.fa-github {
+  /* font-size: 50px; */
+  color: #0cb;
+}
+
+.fa-github:hover {
+  /* font-size: 51px; */
+  color: rgb(90, 90, 90);
+}
+
+.fa-linkedin {
+  /* font-size: 50px; */
+  color: #0073b1;
+}
+
+.fa-linkedin:hover {
+  /* font-size: 51px; */
+  color: rgb(90, 90, 90);
+}
+
+.fa-researchgate {
+  /* font-size: 50px; */
+  color: #0cb;
+}
+
+.fa-researchgate:hover {
+  /* font-size: 51px; */
+  color: rgb(90, 90, 90);
+}
+
+.ai-google-scholar-square {
+  /* font-size: 50px; */
+  color: #1b60d6;
+}
+
+.ai-google-scholar-square:hover {
+  /* font-size: 51px; */
+  color: rgb(90, 90, 90);
+}
+
+.padding {
+  padding-left: 3rem;
+}
+
+.padding-right {
+  padding-right: 3rem;
+}
+
+.padding-left {
+  padding-left: 3rem;
+}
+
+.padding-bottom {
+  padding-bottom: 2rem;
+}
+
+.padding-bot {
+  padding-bottom: 5rem;
+}
+
+.padding-top {
+  padding-top: 1.5rem;
+}
+
+.padding-topo {
+  padding-top: 3rem;
+}
+
+/*Body Template End*/
